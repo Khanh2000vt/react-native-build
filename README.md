@@ -18,3 +18,14 @@
 
 ## Các lỗi thường gặp khi xây dựng bằng Typescripts
 1. https://stackoverflow.com/questions/53516594/why-do-i-keep-getting-delete-cr-prettier-prettier
+
+# Các thứ linh tinh
+## Set màu tab Bar khi chọn
+```
+tabBarIndicatorStyle: {
+  height: null,
+  top: 0,
+  backgroundColor: 'red',
+  borderBottomWidth: 0,
+},
+```
