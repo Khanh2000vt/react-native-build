@@ -29,3 +29,32 @@ tabBarIndicatorStyle: {
   borderBottomWidth: 0,
 },
 ```
+
+# Modal
+## Opening a full-screen modal
+```js
+<Stack.Screen name="NameScreen" component={NameScreen}
+  options={{
+    title: 'Type',
+    presentation: 'modal'}} />
+```
+
+## A half modal react
+* Ở stack navigation
+```js
+<Stack.Screen name="NameScreen" component={NameScreen}
+  options={{
+    headerShown: false,
+    presentation: 'transparentModal',
+   }}/>
+```
+* Ở NameScreen
+```js
+<Pressable
+  style={[
+    StyleSheet.absoluteFill,
+    {backgroundColor: 'rgba(0, 0, 0, 0.5)'},
+   ]}
+  onPress={navigation.goBack}
+/>
+```
