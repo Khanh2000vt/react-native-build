@@ -58,3 +58,15 @@ tabBarIndicatorStyle: {
   onPress={navigation.goBack}
 />
 ```
+## Ẩn tab bar
+```js
+import {getFocusedRouteNameFromRoute} from '@react-navigation/native';
+```
+```js
+const tabHiddenRoutes = ['TypeScreen', 'RepeatScreen', 'AboutScreen']; // Các NameScreen muốn ẩn tab bar
+  if (tabHiddenRoutes.includes(getFocusedRouteNameFromRoute(route))) {
+    navigation.setOptions({tabBarStyle: {display: 'none'}});
+  } else {
+    navigation.setOptions({tabBarStyle: {display: 'flex'}});
+  }
+```
