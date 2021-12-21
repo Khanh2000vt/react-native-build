@@ -21,7 +21,7 @@
 
 # Các thứ linh tinh
 ## Set màu tab Bar khi chọn
-```
+```js
 tabBarIndicatorStyle: {
   height: null,
   top: 0,
