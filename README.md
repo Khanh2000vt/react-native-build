@@ -29,6 +29,10 @@ tabBarIndicatorStyle: {
   borderBottomWidth: 0,
 },
 ```
+## Độ cao
+```css
+elevation: 10,
+```
 
 # Modal
 ## Opening a full-screen modal
