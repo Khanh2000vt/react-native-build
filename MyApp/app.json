@@ -1,0 +1,10 @@
+{
+  "name": "MyApp",
+  "displayName": "MyApp",
+  "expo": {
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": ["js", "jsx", "ts", "tsx", "svg"]
+    }
+  }
+}
