@@ -74,3 +74,9 @@ const tabHiddenRoutes = ['TypeScreen', 'RepeatScreen', 'AboutScreen']; // Các N
     navigation.setOptions({tabBarStyle: {display: 'flex'}});
   }
 ```
+
+## Các thư viện khác
+* Jest
+> https://jestjs.io/
+* Call API
+> https://github.com/axios/axios
