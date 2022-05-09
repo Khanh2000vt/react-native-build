@@ -80,3 +80,5 @@ const tabHiddenRoutes = ['TypeScreen', 'RepeatScreen', 'AboutScreen']; // Các N
 > https://jestjs.io/
 * Call API
 > https://github.com/axios/axios
+* Auto test
+> https://github.com/wix/Detox
