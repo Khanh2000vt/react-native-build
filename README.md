@@ -82,3 +82,4 @@ const tabHiddenRoutes = ['TypeScreen', 'RepeatScreen', 'AboutScreen']; // Các N
 > https://github.com/axios/axios
 * Auto test
 > https://github.com/wix/Detox
+> https://github.com/appium/appium
